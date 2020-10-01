@@ -23,8 +23,24 @@
   text-align: center;
 }
 
-/* dimensioni immagini */
-img {
+/* dimensioni immagini prime due sezioni */
+#lezioni img,
+#steps img {
   max-width: 100%;
   height: 200px;
+}
+
+/* regole immagini sezione why */
+#why img  {
+  max-width: 100%;
+  height: 250px;
+  background-color: #428bca;
+  border-radius: 50%;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+/* margini h3 */
+h3 {
+  margin: 10px;
 }

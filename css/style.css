@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-/* container regole */
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* regole di debug */
 [class*="col-"] {
   min-height: 200px;
@@ -18,11 +12,6 @@
   /* background-color: pink; */
   /* border: solid 1px  #000; */
 }
-
-/* margine fra row */
-/* .row {
-  margin: 60px;
-} */
 
 /* centratura h1 row */
 .row h1 {

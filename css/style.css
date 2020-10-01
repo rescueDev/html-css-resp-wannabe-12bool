@@ -33,7 +33,6 @@
 /* regole immagini sezione why */
 #why img  {
   max-width: 100%;
-  height: 250px;
   background-color: #428bca;
   border-radius: 50%;
   margin-top: 30px;
@@ -42,5 +41,96 @@
 
 /* margini h3 */
 h3 {
-  margin: 10px;
+  margin: 20px;
+}
+
+/* query per adattamento elementi testuali e immagini */
+
+/* query versione smartphone */
+@media all and (max-width: 768px) {
+
+  .row > div {
+    margin-top: 20px;
+  }
+
+  #lezioni img,
+  #steps img {
+    height: 120px;
+  }
+
+  #why img  {
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
+
+/* query versione tablet */
+@media all and (min-width:769px) and (max-width: 992px) {
+
+  .row > div {
+    margin-top: 30px;
+  }
+
+  #lezioni img,
+  #steps img {
+    height: 180px;
+  }
+
+  #why img  {
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+}
+
+@media all and (min-width: 993px) {
+
+  .row > div {
+    margin-top: 40px;
+  }
+
+  #lezioni img,
+  #steps img {
+    height: 220px;
+  }
+
+  #why img  {
+    height: 280px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
 }
